@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- here is a card view is create to tke information as card view into recycler of activity_category.xml -->
+
+<androidx.cardview.widget.CardView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_margin="5dp"
+	android:background="#FFFFFF"
+    app:cardCornerRadius="20sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="145dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/image_category_product"
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/tv_off_category_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:background="@drawable/round_cart_notify"
+                android:fontFamily="@font/ubuntu_medium"
+                android:padding="5dp"
+                android:text=" 20% off "
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_product_name_category_product"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ubuntu_medium"
+            android:padding="5dp"
+            android:text="Product Name"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_quantity_category_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ubuntu_medium"
+            android:padding="5dp"
+            android:text="Quantity"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_oldprice_category_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/strike_through"
+                android:fontFamily="@font/ubuntu_medium"
+                android:padding="5dp"
+                android:text="₹ 0/-"
+                android:textColor="#FF0000"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tv_price_category_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/ubuntu_medium"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="₹ 0/-"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_addtocart_category_product"
+            android:layout_width="145dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_button"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:text="Add to Cart" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
