@@ -28,4 +28,7 @@ Read all the points carefully which I describe as follows:
 - You can add like button as instagram/facebook or click to whole object to open new activity.
 
 # Output will look like this
-![stack Overflow](https://github.com/mahisharma-cs/MySQL-Android-Fetch-Data/blob/master/MySQL-Android-Fetch-Data/zimages/4.png)
+Screenshot 1
+![screenshot-1](https://github.com/mahisharma-cs/MySQL-Android-Fetch-Data/blob/master/MySQL-Android-Fetch-Data/zimages/4.png)
+Screenshot 2
+![screenshot-2](https://github.com/mahisharma-cs/MySQL-Android-Fetch-Data/blob/master/MySQL-Android-Fetch-Data/zimages/5.png)
