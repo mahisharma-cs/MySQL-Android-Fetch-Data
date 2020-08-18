@@ -29,4 +29,4 @@ Read all the points carefully which I describe as follows:
 
 - Your output will look like this :
 
-![foxdemo](https://github.com/mahisharma-cs/MySQL-Android-Fetch-Data/MySQL-Android-Fetch-Data/zimages/3.png)
+![foxdemo](https://github.com/mahisharma-cs/MySQL-Android-Fetch-Data/tree/master/MySQL-Android-Fetch-Data/zimages/3.png)
