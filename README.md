@@ -28,4 +28,4 @@ Read all the points carefully which I describe as follows:
 - You can add like button as instagram/facebook or click to whole object to open new activity.
 
 # Output will look like this
-![foxdemo](http://mahiransh.me/GFG_poster/88.jpg)
+![stack Overflow](http://lmsotfy.com/so.png)
