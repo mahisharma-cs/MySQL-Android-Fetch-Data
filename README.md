@@ -26,3 +26,7 @@ Read all the points carefully which I describe as follows:
             1. This file contain something like SELECT * FROM <table-name> WHERE condition;
 
 - You can add like button as instagram/facebook or click to whole object to open new activity.
+
+- Your output will look like this :
+
+![foxdemo](https://github.com/mahisharma-cs/MySQL-Android-Fetch-Data/MySQL-Android-Fetch-Data/zimages/3.png)
