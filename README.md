@@ -21,6 +21,7 @@ Read all the points carefully which I describe as follows:
 - Your site on which you are fetching data must be SSL (secure) otherwise it will not work. And there is no way to connect any type of not secure site to an Android application.
 
 - Here are requirement of PHP file.
+
             |---Here is one PHP file---|
             1. This file contain something like SELECT * FROM <table-name> WHERE condition;
 
